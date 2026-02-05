@@ -1,0 +1,30 @@
+body{
+    background-color: pink;
+}
+
+h1{
+    color: mediumvioletred;
+    text-align: center;
+    font-style: baskerville;
+}
+
+#button-row {
+    display: flex;
+    justify-content: center;
+    gap: 0px;
+}
+
+#yes-button {
+    background-color: lime;
+    color: black;
+    cursor: pointer;
+    margin: 0 auto;
+    display: block;
+}
+
+#no-button {
+    background-color: red;
+    color: black;
+    margin: 0 auto;
+    display: block;
+}
