@@ -2,29 +2,54 @@ body{
     background-color: pink;
 }
 
-h1{
+#question{
     color: mediumvioletred;
     text-align: center;
     font-style: baskerville;
 }
 
-#button-row {
+#answer{
+    color: mediumvioletred;
+    text-align: center;
+    font-style: baskerville;
+    display: none;
+}
+
+#hearts{
+    display: none;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#bear{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.center-block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.button-row {
     display: flex;
     justify-content: center;
-    gap: 0px;
+    gap: 10px;
 }
 
 #yes-button {
     background-color: lime;
+    border: none;
     color: black;
     cursor: pointer;
-    margin: 0 auto;
     display: block;
 }
 
 #no-button {
     background-color: red;
+    border: none;
     color: black;
-    margin: 0 auto;
     display: block;
 }
